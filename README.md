@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/seekerk/gtest.svg?branch=master)](https://travis-ci.org/seekerk/gtest)
 [![Coverage Status](https://coveralls.io/repos/github/levchig737/otpo_lab1/badge.svg?branch=main)](https://coveralls.io/github/levchig737/otpo_lab1?branch=main)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=qmake-gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=qmake-gtest)
-[![Code smells](https://sonarcloud.io/api/project_badges/measure?project=qmake-gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=qmake-gtest)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=levchig737_otpo_lab1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=levchig737_otpo_lab1)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=levchig737_otpo_lab1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=levchig737_otpo_lab1)
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
