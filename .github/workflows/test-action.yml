@@ -8,7 +8,8 @@ jobs:
       - run: git submodule init
       - run: git submodule update
       - run: pip install --user cpp-coveralls
-      - run: sudo apt install -y qt5-qmake qt5-default
+      - run: sudo apt install qt5-default
+      - run: sudo apt install qmake
       - run: qmake
       - run: make
       - run: ./tests/tests
