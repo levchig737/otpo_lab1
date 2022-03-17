@@ -1,6 +1,4 @@
-#include "tst_test1.h"
 #include "qvadr_test.h"
-#include "tst_stdout.h"
 
 #include <gtest/gtest.h>
 

@@ -1,5 +1,5 @@
-#ifndef FIBONACHI_H
-#define FIBONACHI_H
+#ifndef QVADR_H
+#define QVADR_H
 
 #include <gtest/gtest.h>
 
@@ -78,4 +78,4 @@ TEST(NoRoots, num2) {
     ASSERT_EQ(1, flag);
 }
 
-#endif // FIBONACHI_H
+#endif // QVADR_H

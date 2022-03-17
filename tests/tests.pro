@@ -16,10 +16,9 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=     tst_test1.h \
+HEADERS +=     \
     ../app/myfunc.h \
-    qvadr_test.h \
-    tst_stdout.h
+    qvadr_test.h
 
 SOURCES +=     main.cpp \
     ../app/myfunc.c

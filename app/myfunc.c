@@ -4,13 +4,6 @@
 #include <math.h>
 #include "myfunc.h"
 
-int myfunc(int b) {
-    char *buffer = malloc(sizeof(char) * 1000);
-    buffer [0] = b + 4;
-    // здесь должен ругаться sonarcloud, т.к. утечка памяти
-    return buffer[0];
-}
-
 int val;
 
 void qvadr(float a, float b, float c, float* x1, float* x2, int* flag) {
@@ -34,8 +27,3 @@ void qvadr(float a, float b, float c, float* x1, float* x2, int* flag) {
         *flag = 1;
 }
 
-
-void printStdoutMessages() {
-    printf("This is a test message from myfunc.c\n");
-    printf("Do not disturb\n");
-}
