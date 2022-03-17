@@ -78,4 +78,9 @@ TEST(NoRoots, num2) {
     ASSERT_EQ(1, flag);
 }
 
+TEST(NoRoots, num3) {
+    qvadr(1, 0, 3, &x1, &x2, &flag);
+    ASSERT_EQ(1, flag);
+}
+
 #endif // QVADR_H
